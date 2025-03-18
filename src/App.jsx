@@ -86,7 +86,7 @@ const NepalMap = () => {
   const [namedDistricts, setNamedDistricts] = useState([]);
   const [inputValue, setInputValue] = useState('');
   const [timeUp, setTimeUp] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(25000); // Starting time in milliseconds
+  const [timeLeft, setTimeLeft] = useState(600000); // Starting time in milliseconds
 
   useEffect(() => {
     const timer = setTimeout(() => {
